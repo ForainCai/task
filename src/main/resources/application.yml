@@ -1,0 +1,10 @@
+# broker地址，默认端口是61616
+spring:
+  activemq:
+    broker-url: tcp://10.8.132.198:61616
+    packages:
+      trust-all: true
+    user: admin
+    password: admin
+queueName: mybroker
+topicName: ""
